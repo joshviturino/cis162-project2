@@ -8,10 +8,15 @@
 <title>Badet</title>
 </head>
 <body>
-  <header>
+<header> 
     <h1>Support the Cause</h1>
+   
+    
+</header>
+<div class="form0">
 <nav>
   <ul>
+    
   <li><a href="index.html">Home</a></li>
   <li><a href="about.html">About</a></li>
   <li><a href="health.html">Health Benefits</a></li>
@@ -22,5 +27,57 @@
   </ul>
   
 </nav>
-  </header>
+</div>
+
+<div class="form1">
+
+<div class="navstyle">
+
+  <div class="pic">
+  <img src="hoysandforest.jpg" alt="foresthike" >
+  </div>
+  <form>
+  <label for="firstName">First Name:</label><br>
+  <input type="text" id="firstName" name="firstName" 
+  placeholder="First Name" ><br>
+  <label for="lastName">Last Name:</label><br>
+  <input type="text" id="lastName" name="lastName" placeholder="Last Name"><br><br>
+  
+  <label for="country">Country</label><br>
+  <select id="country" name="country">
+    <option value="australia">Australia</option>
+    <option value="canada">Canada</option>
+    <option value="Europe">Europe</option>
+    <option value="usa">USA</option>
+  </select> <br><br>
+
+  <label for="address">Address:</label><br>
+  <input type="text" id="address" name="address" placeholder="Street Name, Street Number"><br>
+  <label for="city">City:</label><br>
+  <input type="text" id="city" name="city" placeholder="City"> <br>
+  
+
+    <h2>Support</h2>
+<p>Choose how you would like to help support:</p>
+
+  <input type="radio" id="support" name="support" value="support">
+  <label for="support">Support an Event</label><br>
+  <input type="radio" id="volunteer" name="volunteer" value="volunteer">
+  <label for="volunteer">Volunteer</label><br>
+  <input type="radio" id="ocean-cleanup" name="ocean-cleanup" value="ocean-cleanup">
+  <label for="ocean-cleanup">Ocean Cleanup</label>
+    <br>
+    <br>
+  
+  <textarea> Tell Us A Little About Yourself</textarea>
+  <br>
+  <br>
+
+  <input value="Submit" onclick="submit" type="submit"/>
+  <input value="Reset" onclick="reset" type="reset"/>
+  </form>
+</div>
+
+</div>
+
 </body>
